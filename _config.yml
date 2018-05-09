@@ -4,7 +4,7 @@ bio:                ''
 description:        ""
 locale:             en_US
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://martinsdogfarm.github.io/website/" # the base hostname & protocol for your site
+url: "https://martinsdogfarm.github.io/website" # the base hostname & protocol for your site
 
 defaults:
 - scope:
