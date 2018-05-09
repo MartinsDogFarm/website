@@ -8,7 +8,8 @@ lastmod: 2018-26-04
 changefreq: weekly
 ---
 <!-- Main -->
-<h1>Adoption Form <img class="MDF_logo pull-right application" src="/images/MDF_logo.jpg"></h1>
+<h1>Adoption Form <img class="MDF_logo pull-right application" src='{{ "/images/MDF_logo.jpg" | absolute_url }}'>
+</h1>
 <form method="POST" action="https://formspree.io/{{site.email}}" id="MDF_form">
     <div class="field">
         <label for="name">Name</label>
