@@ -1,7 +1,7 @@
 # Site
-title:              Massively
-bio:                'Jekyll version of the Massively theme by HTML5UP'
-description:        "Jekyll version of the Massively theme by HTML5UP"
+title:              Martin's Dog Farm
+bio:                ''
+description:        ""
 locale:             en_US
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site
@@ -36,14 +36,16 @@ disqus_shortname:   default
 # Social
 analytics-id:       "default"
 twitter:            default
-facebook:           default
+facebook:           http://Facebook.com/MartinsDogFarm
 instagram:          default
 github:             default
 
 # personal
-location:           Los Angeles, CA
-phone:              310-318-5555
-email:              info@default.com
+location:           Bentonville, VA
+phone:              540-635-6655
+# email:              martinsdogfarm@gmail.com
+email:              leighlawhon@gmail.com
+
 
 # Gems
 gems:

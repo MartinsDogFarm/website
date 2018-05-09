@@ -1,0 +1,79 @@
+///
+/// Massively by HTML5 UP
+/// html5up.net | @ajlkn
+/// Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+///
+
+/* header infor */
+
+#header {
+    background-color: #004400;
+    height: 16rem;
+    padding-bottom: 4.3rem;
+	div.header_container{
+		margin: 0 auto;
+	    width: calc(100% - 4rem);
+	    max-width: 72rem;
+	    text-align: left;
+	    position: relative;
+	    a.logo_container{
+	   		border-bottom: none;
+		    img{
+				width: 56%;;
+			    left: 2%;
+			}
+		}
+		a.adopt_button.button{
+			right: 3rem;
+		    position: absolute;
+		    top: 5rem;
+		    color: #fdf7cb !important;
+		    box-shadow: 0 0 0 2px #fff;
+		    width: 13rem;
+		    height: 4rem;
+		    font-size: 1rem;
+		    padding: .5rem;
+
+		}
+	}
+	
+}
+.MDF_logo{
+	height: 100%;
+	&.application{
+		height: 170px;
+	    position: absolute;
+	    right: 6rem;
+	    top: 40px;
+	}
+}
+#main>.post {
+    padding: 4rem 8rem 6rem 8rem;
+    header.major h2 {
+    	margin: 0 0 1rem 0;
+	}
+}
+#MDF_form .col{
+	-moz-flex-basis: 30%;
+    -webkit-flex-basis: 30%;
+    -ms-flex-basis: 30%;
+    flex-basis: 30%;
+    -moz-flex-grow: 1;
+    -webkit-flex-grow: 1;
+    -ms-flex-grow: 1;
+    flex-grow: 1;
+    -moz-flex-shrink: 1;
+    -webkit-flex-shrink: 1;
+    -ms-flex-shrink: 1;
+    flex-shrink: 1;
+    margin-right: 20px
+}
+#MDF_form .col:last-child{
+	margin-right: 0px
+}
+#MDF_form .section{
+    display: -moz-flex;
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+}

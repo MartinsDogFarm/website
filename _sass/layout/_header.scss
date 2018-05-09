@@ -19,7 +19,12 @@
 		position: relative;
 		text-align: center;
 		z-index: 2;
-
+		background-color: #004400;
+		img{
+			width: 950px;
+		    position: relative;
+		    left: -30%;
+		}
 		.logo {
 			@include vendor('transition', (
 				'border-color #{_duration(transition)} ease-in-out',
