@@ -10,17 +10,30 @@
     background-color: #004400;
     height: 16rem;
     padding-bottom: 4.3rem;
+    -moz-pointer-events: inherit !important;
+    -webkit-pointer-events: inherit !important;
+    -ms-pointer-events: inherit !important;
+    pointer-events: inherit !important;
+    -moz-user-select: inherit !important;
+    -webkit-user-select: inherit !important;
+    -ms-user-select: inherit !important;
+    user-select: inherit !important;
 	div.header_container{
 		margin: 0 auto;
 	    width: calc(100% - 4rem);
 	    max-width: 72rem;
 	    text-align: left;
 	    position: relative;
+	    display: flex;
+	    height: 100%;
 	    a.logo_container{
 	   		border-bottom: none;
+	   		height: 100%;
+	   		width: 55%;
 		    img{
-				width: 56%;;
-			    left: 2%;
+				width: 100%;
+			    left: 1.7rem;
+			    top: 1rem;
 			}
 		}
 		a.adopt_button.button{
@@ -53,20 +66,35 @@
     	margin: 0 0 1rem 0;
 	}
 }
-#MDF_form .col{
-	-moz-flex-basis: 30%;
-    -webkit-flex-basis: 30%;
-    -ms-flex-basis: 30%;
-    flex-basis: 30%;
-    -moz-flex-grow: 1;
-    -webkit-flex-grow: 1;
-    -ms-flex-grow: 1;
-    flex-grow: 1;
-    -moz-flex-shrink: 1;
-    -webkit-flex-shrink: 1;
-    -ms-flex-shrink: 1;
-    flex-shrink: 1;
-    margin-right: 20px
+#MDF_form{
+	.col{
+		-moz-flex-basis: 30%;
+	    -webkit-flex-basis: 30%;
+	    -ms-flex-basis: 30%;
+	    flex-basis: 30%;
+	    -moz-flex-grow: 1;
+	    -webkit-flex-grow: 1;
+	    -ms-flex-grow: 1;
+	    flex-grow: 1;
+	    -moz-flex-shrink: 1;
+	    -webkit-flex-shrink: 1;
+	    -ms-flex-shrink: 1;
+	    flex-shrink: 1;
+	    margin-right: 20px
+	}
+	input[type="checkbox"], input[type="radio"] {
+	    -moz-appearance: radio;
+	    -webkit-appearance: radio; 
+	    -ms-appearance: radio;
+	    appearance: radio;
+	    display: inline-block; 
+	    float: inherit; 
+	    margin-right: 0rem; 
+	    opacity: 1; 
+	    width: 2rem; 
+	    height: 1rem;
+	    z-index: 0; 
+	}
 }
 #MDF_form .col:last-child{
 	margin-right: 0px
